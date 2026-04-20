@@ -1,1 +1,104 @@
+body {
+    background-color: #FFEDDF;
+background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  /*to avoid image repetition if you have a background image, this will take the entire viewport */
+  height:100vh; 
+}
 
+.container{
+  background: #FFEDDF;
+  opacity: 0.90;
+  max-width: 80%; 
+  margin: auto; /* this helps centering */
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 75px;
+  color: #EE6C4D;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #6F732F;
+  border: 2px solid #EE6C4D;
+
+}
+
+
+button {
+  /*border: none; */
+  border: 1px solid #EE6C4D;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #6F732F;
+  background-color: #FFEDDF;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  font-weight: bold;
+  width: fit-content;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#random-img {
+    border: 1px solid #7C9885;
+    margin-left: 50px;
+    float: left;
+}
+#recipe-body {
+    padding-left: 50px;
+    font-size: 20px;
+    color: #2b303a;
+    width: 400px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#recipe-title {
+    margin-left: 50px;
+    font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #7C9885;
+  border: 1px solid #EE6C4D;
+  width: 400px;
+  height: min-content;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.stats-dashboard {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #A0B47C;
+  border-radius: 8px;
+}
+
+.stat-card {
+  text-align: center;
+}
+
+.stat-card h3 {
+  font-size: 1rem;
+  color: #E9E0C7;
+}
+
+#history-section {
+  border-top: 2px solid #A0B47C;
+  padding-top: 15px;
+}
+
+ul {
+  list-style-type: none; /* Removes bullet points for a cleaner look */
+  padding: 0;
+}
