@@ -9,8 +9,29 @@
   <body>
     <header>
       <h1>Recipe Generator</h1>
-      <button id="generate-btn">Generate Recipe</button>
-      <div id="recipe"></div>
+    
+      <div class="split-container">
+        <div class="left-pane">
+
+          <button id="generate-btn">Generate Recipe</button>
+          <div id="recipe"></div>
+
+        </div>
+        <div class="right-pane">
+          
+          <search>
+            <form action="/search-results-page" method="get">
+              <input type="search" id="site-search" name="q" placeholder="Enter keywords...">
+              
+            </form>
+            <div id="recipe-search"></div>
+          </search>
+
+        </div>
+      </div>
+      
+  
+      
     </header>
     <script src="index.js"></script>
   </body>
